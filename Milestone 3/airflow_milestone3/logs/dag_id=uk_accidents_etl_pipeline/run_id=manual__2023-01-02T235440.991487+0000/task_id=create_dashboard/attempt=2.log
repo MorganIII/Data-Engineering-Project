@@ -1,0 +1,67 @@
+[2023-01-03T00:04:56.291+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: uk_accidents_etl_pipeline.create_dashboard manual__2023-01-02T23:54:40.991487+00:00 [queued]>
+[2023-01-03T00:04:56.321+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: uk_accidents_etl_pipeline.create_dashboard manual__2023-01-02T23:54:40.991487+00:00 [queued]>
+[2023-01-03T00:04:56.323+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-03T00:04:56.324+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 3
+[2023-01-03T00:04:56.324+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-03T00:04:56.392+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): create_dashboard> on 2023-01-02 23:54:40.991487+00:00
+[2023-01-03T00:04:56.413+0000] {standard_task_runner.py:55} INFO - Started process 1916 to run task
+[2023-01-03T00:04:56.431+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'uk_accidents_etl_pipeline', 'create_dashboard', 'manual__2023-01-02T23:54:40.991487+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/milestone_3.py', '--cfg-path', '/tmp/tmpo2b5m74u']
+[2023-01-03T00:04:56.437+0000] {standard_task_runner.py:83} INFO - Job 26: Subtask create_dashboard
+[2023-01-03T00:04:56.779+0000] {task_command.py:389} INFO - Running <TaskInstance: uk_accidents_etl_pipeline.create_dashboard manual__2023-01-02T23:54:40.991487+00:00 [running]> on host 82068c2abeb3
+[2023-01-03T00:04:56.994+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_accidents_etl_pipeline
+AIRFLOW_CTX_TASK_ID=create_dashboard
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-02T23:54:40.991487+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-02T23:54:40.991487+00:00
+[2023-01-03T00:05:17.546+0000] {logging_mixin.py:137} INFO - Dash is running on http://0.0.0.0:8060/
+[2023-01-03T00:05:17.545+0000] {dash.py:1968} INFO - Dash is running on http://0.0.0.0:8060/
+
+[2023-01-03T00:05:17.574+0000] {logging_mixin.py:137} INFO -  * Serving Flask app '***'
+[2023-01-03T00:05:17.576+0000] {logging_mixin.py:137} INFO -  * Debug mode: on
+[2023-01-03T00:08:57.377+0000] {local_task_job.py:224} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2023-01-03T00:08:57.435+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 1916. PIDs of all processes in the group: [1945, 1962, 1965, 1973, 1974, 1981, 1982, 1986, 1988, 1990, 1995, 1997, 2000, 2001, 2005, 2007, 2008, 2010, 2011, 2013, 2014, 2016, 2019, 2023, 2027, 2029, 2031, 2035, 2036, 2037, 2039, 2042, 2043, 2046, 2047, 2053, 1916]
+[2023-01-03T00:08:57.436+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 1916
+[2023-01-03T00:08:57.747+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2037, status='terminated', started='00:05:34') (2037) terminated with exit code None
+[2023-01-03T00:08:57.749+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1945, status='terminated', started='00:05:17') (1945) terminated with exit code None
+[2023-01-03T00:08:57.750+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2042, status='terminated', started='00:05:34') (2042) terminated with exit code None
+[2023-01-03T00:08:57.794+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2011, status='terminated', started='00:05:34') (2011) terminated with exit code None
+[2023-01-03T00:08:57.796+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1982, status='terminated', started='00:05:34') (1982) terminated with exit code None
+[2023-01-03T00:08:57.808+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2016, status='terminated', started='00:05:34') (2016) terminated with exit code None
+[2023-01-03T00:08:57.811+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1962, status='terminated', started='00:05:33') (1962) terminated with exit code None
+[2023-01-03T00:08:57.865+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2008, status='terminated', started='00:05:34') (2008) terminated with exit code None
+[2023-01-03T00:08:57.867+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2027, status='terminated', started='00:05:34') (2027) terminated with exit code None
+[2023-01-03T00:08:57.868+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2001, status='terminated', started='00:05:34') (2001) terminated with exit code None
+[2023-01-03T00:08:57.869+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2019, status='terminated', started='00:05:34') (2019) terminated with exit code None
+[2023-01-03T00:08:57.870+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2043, status='terminated', started='00:05:34') (2043) terminated with exit code None
+[2023-01-03T00:08:57.872+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2014, status='terminated', started='00:05:34') (2014) terminated with exit code None
+[2023-01-03T00:08:57.877+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1988, status='terminated', started='00:05:34') (1988) terminated with exit code None
+[2023-01-03T00:08:57.878+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2035, status='terminated', started='00:05:34') (2035) terminated with exit code None
+[2023-01-03T00:08:57.880+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2007, status='terminated', started='00:05:34') (2007) terminated with exit code None
+[2023-01-03T00:08:57.883+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1981, status='terminated', started='00:05:34') (1981) terminated with exit code None
+[2023-01-03T00:08:57.887+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1916, status='terminated', exitcode=0, started='00:04:55') (1916) terminated with exit code 0
+[2023-01-03T00:08:57.888+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1986, status='terminated', started='00:05:34') (1986) terminated with exit code None
+[2023-01-03T00:08:57.890+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1973, status='terminated', started='00:05:34') (1973) terminated with exit code None
+[2023-01-03T00:08:57.892+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2023, status='terminated', started='00:05:34') (2023) terminated with exit code None
+[2023-01-03T00:08:57.893+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1965, status='terminated', started='00:05:33') (1965) terminated with exit code None
+[2023-01-03T00:08:57.894+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2046, status='terminated', started='00:05:34') (2046) terminated with exit code None
+[2023-01-03T00:08:57.898+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1997, status='terminated', started='00:05:34') (1997) terminated with exit code None
+[2023-01-03T00:08:57.902+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2039, status='terminated', started='00:05:34') (2039) terminated with exit code None
+[2023-01-03T00:08:57.904+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2013, status='terminated', started='00:05:34') (2013) terminated with exit code None
+[2023-01-03T00:08:57.905+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2031, status='terminated', started='00:05:34') (2031) terminated with exit code None
+[2023-01-03T00:08:57.907+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2036, status='terminated', started='00:05:34') (2036) terminated with exit code None
+[2023-01-03T00:08:57.909+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2005, status='terminated', started='00:05:34') (2005) terminated with exit code None
+[2023-01-03T00:08:57.911+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2010, status='terminated', started='00:05:34') (2010) terminated with exit code None
+[2023-01-03T00:08:57.913+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2029, status='terminated', started='00:05:34') (2029) terminated with exit code None
+[2023-01-03T00:08:57.914+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2047, status='terminated', started='00:05:34') (2047) terminated with exit code None
+[2023-01-03T00:08:57.915+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1974, status='terminated', started='00:05:34') (1974) terminated with exit code None
+[2023-01-03T00:08:58.053+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1995, status='terminated', started='00:05:34') (1995) terminated with exit code None
+[2023-01-03T00:08:58.055+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2000, status='terminated', started='00:05:34') (2000) terminated with exit code None
+[2023-01-03T00:08:58.056+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1990, status='terminated', started='00:05:34') (1990) terminated with exit code None
+[2023-01-03T00:09:57.473+0000] {process_utils.py:147} WARNING - process psutil.Process(pid=2053, name='airflow scheduler -- DagFileProcessorManager', status='sleeping', started='00:05:34') did not respond to SIGTERM. Trying SIGKILL
+[2023-01-03T00:09:57.481+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGKILL to group 1916
+[2023-01-03T00:09:57.483+0000] {process_utils.py:99} INFO - Sending the signal Signals.SIGKILL to process 1916 as process group is missing.
+[2023-01-03T00:10:57.508+0000] {process_utils.py:158} ERROR - Process psutil.Process(pid=2053, name='airflow scheduler -- DagFileProcessorManager', status='sleeping', started='00:05:34') (2053) could not be killed. Giving up.

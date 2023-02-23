@@ -1,0 +1,13 @@
+pandas
+matplotlib
+scikit-learn
+seaborn
+numpy
+scipy
+pyarrow
+IPython
+dash
+dash_core_components
+dash_html_components
+sqlalchemy
+plotly

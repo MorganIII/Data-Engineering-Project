@@ -1,0 +1,25 @@
+[2023-01-02T23:57:14.053+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: uk_accidents_etl_pipeline.load_to_postgres manual__2023-01-02T23:54:40.991487+00:00 [queued]>
+[2023-01-02T23:57:14.083+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: uk_accidents_etl_pipeline.load_to_postgres manual__2023-01-02T23:54:40.991487+00:00 [queued]>
+[2023-01-02T23:57:14.084+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-02T23:57:14.085+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2023-01-02T23:57:14.086+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-02T23:57:14.143+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): load_to_postgres> on 2023-01-02 23:54:40.991487+00:00
+[2023-01-02T23:57:14.157+0000] {standard_task_runner.py:55} INFO - Started process 1473 to run task
+[2023-01-02T23:57:14.166+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'uk_accidents_etl_pipeline', 'load_to_postgres', 'manual__2023-01-02T23:54:40.991487+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/milestone_3.py', '--cfg-path', '/tmp/tmpd3_2kn10']
+[2023-01-02T23:57:14.170+0000] {standard_task_runner.py:83} INFO - Job 20: Subtask load_to_postgres
+[2023-01-02T23:57:14.348+0000] {task_command.py:389} INFO - Running <TaskInstance: uk_accidents_etl_pipeline.load_to_postgres manual__2023-01-02T23:54:40.991487+00:00 [running]> on host 82068c2abeb3
+[2023-01-02T23:57:14.573+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_accidents_etl_pipeline
+AIRFLOW_CTX_TASK_ID=load_to_postgres
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-02T23:54:40.991487+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-02T23:54:40.991487+00:00
+[2023-01-02T23:57:24.714+0000] {logging_mixin.py:137} INFO - connected succesfully
+[2023-01-02T23:57:24.862+0000] {logging_mixin.py:137} INFO - Table already exists
+[2023-01-02T23:57:24.883+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-02T23:57:24.910+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=uk_accidents_etl_pipeline, task_id=load_to_postgres, execution_date=20230102T235440, start_date=20230102T235714, end_date=20230102T235724
+[2023-01-02T23:57:24.983+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-01-02T23:57:25.042+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

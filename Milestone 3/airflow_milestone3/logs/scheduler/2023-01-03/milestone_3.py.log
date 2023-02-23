@@ -1,0 +1,250 @@
+[2023-01-03T00:00:11.198+0000] {processor.py:153} INFO - Started process (PID=1644) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:00:11.203+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:00:11.207+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:00:11.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:00:20.438+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:00:20.737+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:00:20.736+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:00:20.848+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:00:20.848+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:00:20.929+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 9.762 seconds
+[2023-01-03T00:00:51.487+0000] {processor.py:153} INFO - Started process (PID=1681) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:00:51.488+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:00:51.499+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:00:51.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:00:59.723+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:00:59.854+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:00:59.853+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:00:59.940+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:00:59.940+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:01:00.012+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 8.531 seconds
+[2023-01-03T00:01:30.458+0000] {processor.py:153} INFO - Started process (PID=1721) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:01:30.460+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:01:30.462+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:01:30.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:01:38.494+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:01:38.598+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:01:38.597+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:01:38.697+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:01:38.696+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:01:38.772+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 8.320 seconds
+[2023-01-03T00:02:09.207+0000] {processor.py:153} INFO - Started process (PID=1766) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:02:09.227+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:02:09.229+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:09.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:02:19.450+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:02:19.509+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:19.508+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:02:19.555+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:19.554+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:02:19.594+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 10.410 seconds
+[2023-01-03T00:02:28.098+0000] {processor.py:153} INFO - Started process (PID=1787) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:02:28.105+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:02:28.111+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:28.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:02:35.808+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:02:35.879+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:35.878+0000] {taskinstance.py:1774} ERROR - {'DAG Id': 'uk_accidents_etl_pipeline', 'Task Id': 'create_dashboard', 'Run Id': 'manual__2023-01-02T23:53:19.341738+00:00', 'Hostname': '82068c2abeb3'}
+[2023-01-03T00:02:35.946+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:35.945+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=uk_accidents_etl_pipeline, task_id=create_dashboard, execution_date=20230102T235319, start_date=20230103T000150, end_date=20230103T000235
+[2023-01-03T00:02:35.984+0000] {processor.py:713} INFO - Executed failure callback for <TaskInstance: uk_accidents_etl_pipeline.create_dashboard manual__2023-01-02T23:53:19.341738+00:00 [up_for_retry]> in state up_for_retry
+[2023-01-03T00:02:35.999+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:35.999+0000] {taskinstance.py:1774} ERROR - {'DAG Id': 'uk_accidents_etl_pipeline', 'Task Id': 'create_dashboard', 'Run Id': 'manual__2023-01-02T23:53:19.341738+00:00', 'Hostname': '82068c2abeb3'}
+[2023-01-03T00:02:36.046+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:36.046+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=uk_accidents_etl_pipeline, task_id=create_dashboard, execution_date=20230102T235319, start_date=20230103T000150, end_date=20230103T000236
+[2023-01-03T00:02:36.065+0000] {processor.py:713} INFO - Executed failure callback for <TaskInstance: uk_accidents_etl_pipeline.create_dashboard manual__2023-01-02T23:53:19.341738+00:00 [failed]> in state failed
+[2023-01-03T00:02:36.206+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:36.204+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:02:36.324+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:02:36.323+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:02:36.432+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 8.350 seconds
+[2023-01-03T00:03:06.925+0000] {processor.py:153} INFO - Started process (PID=1819) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:03:06.937+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:03:06.940+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:03:06.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:03:16.801+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:03:16.885+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:03:16.883+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:03:16.944+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:03:16.943+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:03:17.022+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 10.106 seconds
+[2023-01-03T00:03:47.469+0000] {processor.py:153} INFO - Started process (PID=1850) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:03:47.472+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:03:47.474+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:03:47.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:03:55.493+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:03:55.478+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/milestone_3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/milestone_3.py", line 10, in <module>
+    from dashbord import create_dashboard
+  File "/opt/airflow/dags/dashbord.py", line 68
+    app.run_server(host='0.0.0.0 ', port=8050, debug=True)')
+                                                           ^
+SyntaxError: EOL while scanning string literal
+[2023-01-03T00:03:55.501+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:03:55.628+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 8.163 seconds
+[2023-01-03T00:04:26.053+0000] {processor.py:153} INFO - Started process (PID=1882) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:04:26.057+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:04:26.063+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:04:26.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:04:34.205+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:04:34.330+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:04:34.329+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:04:34.383+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:04:34.383+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:04:34.455+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 8.410 seconds
+[2023-01-03T00:05:04.730+0000] {processor.py:153} INFO - Started process (PID=1926) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:05:04.732+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:05:04.734+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:05:04.734+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:05:14.957+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:05:15.069+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:05:15.067+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:05:15.194+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:05:15.194+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:05:15.291+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 10.568 seconds
+[2023-01-03T00:05:35.574+0000] {processor.py:153} INFO - Started process (PID=2105) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:05:35.576+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:05:35.578+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:05:35.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:05:44.702+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:05:44.846+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:05:44.845+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:05:44.955+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:05:44.955+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:05:45.113+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 9.548 seconds
+[2023-01-03T00:05:45.836+0000] {processor.py:153} INFO - Started process (PID=2116) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:05:45.839+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:05:45.846+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:05:45.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:05:56.871+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:05:57.034+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:05:57.032+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:05:57.120+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:05:57.120+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:05:57.216+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 11.394 seconds
+[2023-01-03T00:06:15.443+0000] {processor.py:153} INFO - Started process (PID=2147) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:06:15.445+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:06:15.449+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:06:15.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:06:22.514+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:06:22.667+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:06:22.666+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:06:22.819+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:06:22.818+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:06:22.979+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.564 seconds
+[2023-01-03T00:06:27.542+0000] {processor.py:153} INFO - Started process (PID=2155) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:06:27.548+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:06:27.551+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:06:27.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:06:34.857+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:06:34.974+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:06:34.970+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:06:35.061+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:06:35.061+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:06:35.132+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.607 seconds
+[2023-01-03T00:06:53.322+0000] {processor.py:153} INFO - Started process (PID=2188) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:06:53.328+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:06:53.332+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:06:53.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:00.419+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:00.568+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:00.567+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:07:00.631+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:00.631+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:07:00.719+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.406 seconds
+[2023-01-03T00:07:05.250+0000] {processor.py:153} INFO - Started process (PID=2196) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:05.254+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:07:05.257+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:05.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:13.561+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:13.680+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:13.678+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:07:13.760+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:13.760+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:07:13.847+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 8.608 seconds
+[2023-01-03T00:07:30.995+0000] {processor.py:153} INFO - Started process (PID=2228) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:30.998+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:07:31.003+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:31.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:38.195+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:38.350+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:38.349+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:07:38.462+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:38.462+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:07:38.561+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.577 seconds
+[2023-01-03T00:07:44.249+0000] {processor.py:153} INFO - Started process (PID=2246) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:44.251+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:07:44.253+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:44.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:52.409+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:07:52.531+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:52.530+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:07:52.615+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:07:52.615+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:07:52.708+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 8.482 seconds
+[2023-01-03T00:08:08.706+0000] {processor.py:153} INFO - Started process (PID=2269) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:08:08.708+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:08:08.709+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:08:08.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:08:15.327+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:08:15.440+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:08:15.437+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:08:15.523+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:08:15.522+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:08:15.569+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 6.867 seconds
+[2023-01-03T00:08:23.260+0000] {processor.py:153} INFO - Started process (PID=2286) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:08:23.266+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:08:23.268+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:08:23.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:08:34.152+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:08:34.302+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:08:34.301+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:08:34.392+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:08:34.391+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:08:34.462+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 11.253 seconds
+[2023-01-03T00:08:45.910+0000] {processor.py:153} INFO - Started process (PID=2309) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:08:45.913+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:08:45.916+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:08:45.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:08:54.854+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:08:54.954+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:08:54.953+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:08:55.026+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:08:55.026+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:08:55.082+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 9.174 seconds
+[2023-01-03T00:09:05.179+0000] {processor.py:153} INFO - Started process (PID=2379) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:09:05.188+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:09:05.190+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:09:05.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:09:12.731+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:09:12.827+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:09:12.826+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:09:12.890+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:09:12.889+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:09:12.960+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.800 seconds
+[2023-01-03T00:09:25.545+0000] {processor.py:153} INFO - Started process (PID=2399) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:09:25.549+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:09:25.554+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:09:25.554+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:09:32.110+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:09:32.228+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:09:32.227+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:09:32.305+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:09:32.302+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:09:32.381+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 6.844 seconds
+[2023-01-03T00:09:43.615+0000] {processor.py:153} INFO - Started process (PID=2415) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:09:43.617+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:09:43.619+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:09:43.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:09:49.881+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:09:50.126+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:09:50.125+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:09:50.215+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:09:50.214+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:09:50.359+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 6.758 seconds
+[2023-01-03T00:10:03.201+0000] {processor.py:153} INFO - Started process (PID=2435) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:10:03.203+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:10:03.207+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:10:03.206+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:10:10.253+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:10:10.332+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:10:10.331+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:10:10.415+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:10:10.415+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:10:10.484+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.290 seconds
+[2023-01-03T00:10:20.938+0000] {processor.py:153} INFO - Started process (PID=2451) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:10:20.946+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:10:20.949+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:10:20.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:10:30.778+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:10:30.835+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:10:30.833+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:10:30.878+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:10:30.878+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:10:30.979+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 10.051 seconds
+[2023-01-03T00:10:41.153+0000] {processor.py:153} INFO - Started process (PID=2472) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:10:41.155+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:10:41.157+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:10:41.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:10:48.818+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:10:48.903+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:10:48.902+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:10:48.975+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:10:48.975+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:10:49.126+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.984 seconds
+[2023-01-03T00:11:01.452+0000] {processor.py:153} INFO - Started process (PID=2488) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:01.459+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:11:01.462+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:01.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:07.712+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:07.834+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:07.833+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:11:07.911+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:07.911+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:11:07.994+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 6.554 seconds
+[2023-01-03T00:11:19.673+0000] {processor.py:153} INFO - Started process (PID=2508) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:19.675+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:11:19.680+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:19.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:26.416+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:26.573+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:26.572+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:11:26.681+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:26.681+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:11:26.821+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.153 seconds
+[2023-01-03T00:11:38.554+0000] {processor.py:153} INFO - Started process (PID=2535) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:38.558+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:11:38.564+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:38.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:48.684+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:48.908+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:48.907+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:11:49.133+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:49.133+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:11:49.391+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 10.864 seconds
+[2023-01-03T00:11:57.475+0000] {processor.py:153} INFO - Started process (PID=2556) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:11:57.477+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:11:57.481+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:11:57.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:00.192+0000] {processor.py:153} INFO - Started process (PID=2558) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:00.194+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:12:00.197+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:00.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:07.313+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:07.409+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:07.408+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:12:07.465+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:07.465+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:12:07.560+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 10.105 seconds
+[2023-01-03T00:12:08.540+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:08.589+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:08.588+0000] {taskinstance.py:1774} ERROR - {'DAG Id': 'uk_accidents_etl_pipeline', 'Task Id': 'create_dashboard', 'Run Id': 'manual__2023-01-02T23:54:40.991487+00:00', 'Hostname': '82068c2abeb3'}
+[2023-01-03T00:12:08.698+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:08.692+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=uk_accidents_etl_pipeline, task_id=create_dashboard, execution_date=20230102T235440, start_date=20230103T001131, end_date=20230103T001208
+[2023-01-03T00:12:08.749+0000] {processor.py:713} INFO - Executed failure callback for <TaskInstance: uk_accidents_etl_pipeline.create_dashboard manual__2023-01-02T23:54:40.991487+00:00 [up_for_retry]> in state up_for_retry
+[2023-01-03T00:12:08.954+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:08.952+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:12:09.035+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:09.034+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:12:09.094+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 8.916 seconds
+[2023-01-03T00:12:37.970+0000] {processor.py:153} INFO - Started process (PID=2593) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:37.972+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:12:37.975+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:37.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:39.484+0000] {processor.py:153} INFO - Started process (PID=2595) to work on /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:39.486+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/milestone_3.py for tasks to queue
+[2023-01-03T00:12:39.487+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:39.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:44.944+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:45.047+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:45.045+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:12:45.106+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:45.106+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:12:45.175+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.218 seconds
+[2023-01-03T00:12:46.986+0000] {processor.py:753} INFO - DAG(s) dict_keys(['uk_accidents_etl_pipeline']) retrieved from /opt/airflow/dags/milestone_3.py
+[2023-01-03T00:12:47.092+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:47.086+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-03T00:12:47.153+0000] {logging_mixin.py:137} INFO - [2023-01-03T00:12:47.153+0000] {dag.py:3427} INFO - Setting next_dagrun for uk_accidents_etl_pipeline to None, run_after=None
+[2023-01-03T00:12:47.319+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/milestone_3.py took 7.844 seconds

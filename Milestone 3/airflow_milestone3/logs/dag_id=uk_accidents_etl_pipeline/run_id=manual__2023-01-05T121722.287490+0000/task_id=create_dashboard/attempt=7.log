@@ -1,0 +1,48 @@
+[2023-01-05T12:45:38.322+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: uk_accidents_etl_pipeline.create_dashboard manual__2023-01-05T12:17:22.287490+00:00 [queued]>
+[2023-01-05T12:45:38.443+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: uk_accidents_etl_pipeline.create_dashboard manual__2023-01-05T12:17:22.287490+00:00 [queued]>
+[2023-01-05T12:45:38.451+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-05T12:45:38.456+0000] {taskinstance.py:1284} INFO - Starting attempt 7 of 8
+[2023-01-05T12:45:38.458+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-05T12:45:38.639+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): create_dashboard> on 2023-01-05 12:17:22.287490+00:00
+[2023-01-05T12:45:38.726+0000] {standard_task_runner.py:55} INFO - Started process 1845 to run task
+[2023-01-05T12:45:38.742+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'uk_accidents_etl_pipeline', 'create_dashboard', 'manual__2023-01-05T12:17:22.287490+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/milestone_3.py', '--cfg-path', '/tmp/tmpswcp6dow']
+[2023-01-05T12:45:38.778+0000] {standard_task_runner.py:83} INFO - Job 41: Subtask create_dashboard
+[2023-01-05T12:45:39.192+0000] {task_command.py:389} INFO - Running <TaskInstance: uk_accidents_etl_pipeline.create_dashboard manual__2023-01-05T12:17:22.287490+00:00 [running]> on host ecc1437a0be2
+[2023-01-05T12:45:39.492+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=uk_accidents_etl_pipeline
+AIRFLOW_CTX_TASK_ID=create_dashboard
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-05T12:17:22.287490+00:00
+AIRFLOW_CTX_TRY_NUMBER=7
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-05T12:17:22.287490+00:00
+[2023-01-05T12:45:57.172+0000] {logging_mixin.py:137} INFO - Dash is running on http://0.0.0.0:8050/
+[2023-01-05T12:45:57.172+0000] {dash.py:1968} INFO - Dash is running on http://0.0.0.0:8050/
+
+[2023-01-05T12:45:57.234+0000] {logging_mixin.py:137} INFO -  * Serving Flask app '***'
+[2023-01-05T12:45:57.236+0000] {logging_mixin.py:137} INFO -  * Debug mode: off
+[2023-01-05T12:45:57.238+0000] {_internal.py:224} INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://172.19.0.3:8050
+[2023-01-05T12:45:57.239+0000] {_internal.py:224} INFO - [33mPress CTRL+C to quit[0m
+[2023-01-05T13:07:16.048+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:07:16] "GET / HTTP/1.1" 200 -
+[2023-01-05T13:07:16.662+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:07:16] "GET /_favicon.ico?v=2.7.1 HTTP/1.1" 200 -
+[2023-01-05T13:07:16.708+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:07:16] "GET /_dash-dependencies HTTP/1.1" 200 -
+[2023-01-05T13:07:18.779+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:07:18] "GET /_dash-layout HTTP/1.1" 200 -
+[2023-01-05T13:07:19.461+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:07:19] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+[2023-01-05T13:07:19.505+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:07:19] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+[2023-01-05T13:08:42.507+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:08:42] "GET / HTTP/1.1" 200 -
+[2023-01-05T13:08:43.127+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:08:43] "GET /_dash-dependencies HTTP/1.1" 200 -
+[2023-01-05T13:08:44.529+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:08:44] "GET /_favicon.ico?v=2.7.1 HTTP/1.1" 200 -
+[2023-01-05T13:08:45.210+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:08:45] "GET /_dash-layout HTTP/1.1" 200 -
+[2023-01-05T13:08:45.940+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:08:45] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+[2023-01-05T13:08:45.957+0000] {_internal.py:224} INFO - 172.19.0.1 - - [05/Jan/2023 13:08:45] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+[2023-01-05T13:11:48.459+0000] {local_task_job.py:82} ERROR - Received SIGTERM. Terminating subprocesses
+[2023-01-05T13:11:48.600+0000] {taskinstance.py:1483} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-01-05T13:11:48.882+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 1845. PIDs of all processes in the group: [1845]
+[2023-01-05T13:11:48.886+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 1845
+[2023-01-05T13:11:48.898+0000] {taskinstance.py:1483} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-01-05T13:11:48.900+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 41 for task create_dashboard (Task received SIGTERM signal; 1845)
+[2023-01-05T13:11:48.961+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1845, status='terminated', exitcode=1, started='12:45:38') (1845) terminated with exit code 1
